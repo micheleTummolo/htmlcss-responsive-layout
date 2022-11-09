@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+MAIN COLORS
+
+    DARCK-BLUE: #0084FD;
+    LIGHT-BLUE: #B5DDFF;
+    PURPLE: #9792E4;
+    YELLOW: #FDC15F;
+    DARCK-GREY: #333333;
+
+MAIN COLORS */
+
+/* Service classes */
+    .bk-blue {
+        background-color: blue;
+    }
+
+    .br-red {
+        border: 1px solid red;
+    }
+/* Service classes */
+
+/* Redundant classes */
+    /* DISPLAY FLEX */
+    .flex {
+        display: flex;
+    }
+
+    .justify-center {
+        justify-content: center;
+    }
+
+    .align-center {
+        align-items: center;
+    }
+
+    .space-between {
+        justify-content: space-between;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+    /* DISPLAY FLEX */
+
+    .row {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .container {
+        margin: 5rem 0rem;
+    }
+
+    .color-white {
+        color: white;
+    }
+/* Redundant classes */
+
+/* Navbar */
+    .container-nav {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #0084FD;
+        padding: 1rem 0rem;
+    }
+
+    .nav-logo {
+        width: 25%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .nav-menu {
+        width: 5rem;
+    }
+/* Navbar */
+
+/* First section */
+    .cont-s1 {
+        margin-top: 10rem;
+    }
+
+    .card-1 {
+        margin-bottom: 3rem;
+        background-color: #B5DDFF;
+        height: 30rem;
+        width: 30rem;
+    }
+/* First section */
