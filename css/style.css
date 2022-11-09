@@ -102,6 +102,10 @@ MAIN COLORS */
         .cl-white {
             color: white;
         }
+
+        .cl-purple {
+            color: #9792E4;
+        }
     /* Colors */
     
 
@@ -113,15 +117,22 @@ MAIN COLORS */
         text-align: center;
     }
 
-    h2 {
-        font-size: 2.2rem;
-        font-weight: 800;
-    } 
+    /* TITLES */
+        h2 {
+            font-size: 2.2rem;
+            font-weight: 800;
+        } 
 
-    h3 {
-        font-size: 1.6rem;
-        font-weight: 700;
-    }
+        h3 {
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+    /* TITLES */
 
     p {
         line-height: 2;
@@ -138,7 +149,7 @@ MAIN COLORS */
     }
 
     .circle {
-        border-radius: 100%;
+        border-radius: 4rem;
         display: inline-block;
     }
 
@@ -236,3 +247,29 @@ MAIN COLORS */
         }
 
 /* Second section */
+
+/* Third section */
+        .cont-s3 p {
+            margin-bottom: 3rem;
+            font-size: 1.4rem;
+            font-weight: 400;
+        }
+
+        .cont-s3 h4, .cont-s3 h2 {
+            margin-bottom: 2rem;
+        }
+
+        .cont-s3 .card-type-2 p {
+            margin: 1.5rem 0rem;
+            font-size: 1.3rem;
+        }
+
+        .cont-s3 .card-type-2 {
+            padding-bottom: 2rem;
+        }
+
+        .cont-s3 .card-type-2 h4 {
+            margin: 0;
+            font-weight: 700;
+        }
+/* Third section */
