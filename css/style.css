@@ -118,6 +118,11 @@ MAIN COLORS */
     }
 
     /* TITLES */
+        h1 {
+            font-size: 3.2rem;
+            font-weight: 800;
+        }
+
         h2 {
             font-size: 2.2rem;
             font-weight: 800;
@@ -273,3 +278,26 @@ MAIN COLORS */
             font-weight: 700;
         }
 /* Third section */
+
+/* Fourth section */
+        .cont-s4 .title{
+            padding: 4rem 0rem;
+        }
+
+        .cont-s4 h1{
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+        }
+
+        .cont-s4 p{
+            font-weight: 500;
+        }
+
+        .cont-s4 .card-type-1{
+            margin-bottom: 2rem;
+        }
+
+        .cont-s4 {
+            padding-bottom: 2rem;
+        }
+/* Fourth section */
