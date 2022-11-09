@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* 
@@ -46,6 +47,10 @@ MAIN COLORS */
     .wrap {
         flex-wrap: wrap;
     }
+
+    .column {
+        flex-direction: column;
+    }
     /* DISPLAY FLEX */
 
     .row {
@@ -54,11 +59,52 @@ MAIN COLORS */
     }
 
     .container {
+        width: 100%;
         margin: 5rem 0rem;
     }
 
     .color-white {
         color: white;
+    }
+
+    .a {
+        text-decoration: none;
+    }
+
+    .button {
+        padding: 0.5rem 3rem;
+        border-radius: 2rem;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    /* Colors */
+        .bk-dk-blue {
+            background-color: #0084FD;
+        }
+
+        .cl-dk-blue {
+            color: #0084FD;
+        }
+
+        .cl-lt-grey {
+            color: #5A6E7F;
+        }
+    /* Colors */
+    
+
+    .width-full {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    p {
+        line-height: 2;
+        font-weight: 700;
     }
 /* Redundant classes */
 
@@ -84,6 +130,10 @@ MAIN COLORS */
     .nav-menu {
         width: 5rem;
     }
+
+    .hamburger {
+        cursor: pointer;
+    }
 /* Navbar */
 
 /* First section */
@@ -91,10 +141,24 @@ MAIN COLORS */
         margin-top: 10rem;
     }
 
-    .card-1 {
-        margin-bottom: 3rem;
-        background-color: #B5DDFF;
-        height: 30rem;
-        width: 30rem;
-    }
+    /* Card */
+        .card-type-1 {
+            margin-bottom: 3rem;
+            background-color: #B5DDFF;
+            border-radius: 2rem;
+            padding-top: 2rem;
+        }
+
+        .card-type-1 p {
+            margin: 2rem 0rem;
+        }
+
+        .card-type-1 .button {
+            margin-bottom: 2rem;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+
+
+    /* Card */
 /* First section */
