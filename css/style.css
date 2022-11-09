@@ -53,6 +53,10 @@ MAIN COLORS */
     }
     /* DISPLAY FLEX */
 
+    .relative {
+        position: relative;
+    }
+
     .row {
         margin: 0 auto;
         width: 80%;
@@ -301,3 +305,29 @@ MAIN COLORS */
             padding-bottom: 2rem;
         }
 /* Fourth section */
+
+/* Fifth section */
+        .cont-s5 h1 {
+            font-weight: 600;
+        }
+
+        .cont-s5 p {
+            margin: 2rem 0rem;
+            font-weight: 400;
+        }
+
+        .cont-s5 img {
+            width: 50%;
+            border-radius: 50%;
+        }
+
+        .over-icon {
+            position: absolute;
+            top: 0;
+            left: 140px;
+        }
+        
+        .cont-s5 .relative, .cont-s5 h2 {
+            margin: 2rem 0rem;
+        }
+/* Fifth section */
