@@ -199,10 +199,58 @@ MAIN COLORS */
         right: 0;
         background-color: #0084FD;
         padding: 1rem 0rem;
+        height: 8vh;
     }
 
     .hamburger {
         cursor: pointer;
+    }
+
+    
+    .nav-menu {
+        width: 60%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu-list {
+        width: 73%;
+    }
+
+    .button-cont {
+        display: flex;
+        justify-content: end;
+        width: 25%;
+    }
+
+    .menu ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu li:hover {
+        text-decoration-line: underline;
+        color: white;
+    }
+
+    .menu a {
+        text-decoration: none;
+    }
+
+    .menu .button {
+        padding: .5rem;
+    }
+
+    .menu {
+        display: none;
     }
 /* Navbar */
 

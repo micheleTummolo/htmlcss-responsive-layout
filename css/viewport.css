@@ -1,4 +1,8 @@
 /* Tablet */
+/* 
+    TO DO
+    1.Change ".row { width: 80% } to { width: 90%}" 
+*/
 @media screen and (min-width: 768px) {
 
     .row, .row-card {
@@ -78,4 +82,68 @@
         }
     /* Sixth section */
 
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+    /* Nav */    
+        .hamburger {
+            display: none;
+        }
+
+        .menu {
+            display: flex;
+        }
+    /* Nav */    
+    
+    /* First section */    
+    .cont-s1 .card-bg .row-card {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .cont-s1 .card-bg .col-50{
+        width: 50%;
+    }
+
+    .cont-s1 .card-sm {
+        width: 30%;
+    }
+
+    .cont-s1 .img-cont-width {
+        width: 50%;
+        display: flex;
+        align-items: flex-end;
+    }
+    /* First section */
+
+    /* Second section */
+        .cont-s2 .row{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .cont-s2 .col-50 {
+            width: 46%;
+        }
+
+        .cont-s2 .col-50:last-child {
+            display: flex;
+            align-items: flex-end;
+        }
+    /* Second section */
+
+    /* Fourth section */
+        .cont-s4 .card-50 {
+            width: 32%;
+        }
+    /* Fourth section */
+
+    /* Sixth section */
+    .cont-s6 .col, footer .col {
+        width: 50%;
+        margin: 0 auto;
+    }
+/* Sixth section */
 }
