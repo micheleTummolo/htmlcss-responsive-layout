@@ -57,7 +57,12 @@ MAIN COLORS */
         position: relative;
     }
 
-    .row {
+    .row{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .row-card {
         margin: 0 auto;
         width: 80%;
     }
@@ -166,7 +171,7 @@ MAIN COLORS */
     }
 
     .circle {
-        border-radius: 4rem;
+        border-radius: 50%;
         display: inline-block;
     }
 
@@ -194,18 +199,6 @@ MAIN COLORS */
         right: 0;
         background-color: #0084FD;
         padding: 1rem 0rem;
-    }
-
-    .nav-logo {
-        width: 25%;
-    }
-
-    .logo {
-        width: 100%;
-    }
-
-    .nav-menu {
-        width: 5rem;
     }
 
     .hamburger {
@@ -266,6 +259,12 @@ MAIN COLORS */
 /* Second section */
 
 /* Third section */
+        .img-cont img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
         .cont-s3 p {
             margin-bottom: 3rem;
             font-size: 1.4rem;

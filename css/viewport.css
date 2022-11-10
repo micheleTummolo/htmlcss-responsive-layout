@@ -1,0 +1,81 @@
+/* Tablet */
+@media screen and (min-width: 768px) {
+
+    .row, .row-card {
+        width: 90%;
+    }
+
+    /* First section */
+    .cont-s1 .row {
+        justify-content: space-between;
+    }
+    
+    .cont-s1 .card-bg {
+        width: 65%;
+    }
+
+    .cont-s1 .card-sm {
+        width: 30%;
+    }
+
+    .cont-s1 .img-cont-width {
+        width: 70%;
+    }
+    /* First section */
+
+    /* Third section */
+        .cont-s3 .card-type-2 .row-card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: start;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .cont-s3 .card-type-2 .row-card .p-cont {
+            width: 60%;
+        }
+    /* Third section */
+
+
+    /* Fourth section */
+
+        .cont-s4 .row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .cont-s4 .card-50 {
+            width: 47%;
+        }
+    /* Fourth section */
+
+    /* Fifth section */
+        .cont-s5 .row{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .cont-s5 .col-bg{
+            width: 60%;
+        }
+
+        .cont-s5 .col-sm{
+            width: 33%;
+        }
+
+        .cont-s5 .col-sm h2{
+            font-size: 1.6rem;
+        }
+    /* Fifth section */
+
+    /* Sixth section */
+        .cont-s6 .col, footer .col {
+            width: 75%;
+            margin: 0 auto;
+        }
+    /* Sixth section */
+
+}
