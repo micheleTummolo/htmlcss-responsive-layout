@@ -147,3 +147,10 @@
     }
 /* Sixth section */
 }
+
+/* Large Desktop */
+@media screen and (min-width: 1200px) {
+    .row {
+        width: 70%;
+    }
+}
