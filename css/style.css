@@ -199,16 +199,60 @@ MAIN COLORS */
         right: 0;
         background-color: #0084FD;
         padding: 1rem 0rem;
-        height: 8vh;
+        /* position: relative; */
     }
 
     .hamburger {
         cursor: pointer;
+        transition: .5s;
+    }
+
+    .hamburger:hover{
+        transform: rotate(90deg);      
+    }
+
+    .cont-pop-up {
+        position: relative;
+    }
+
+    .cont-pop-up:hover .pop-up-menu{
+        display: block; 
+    }
+
+    .cont-pop-up:hover .hamburger{
+        display: block; 
+        transform: rotate(90deg);
+    }
+
+    .pop-up-menu {
+        position: absolute;
+        padding: 2rem;
+        top: 16px;
+        right: 0px;
+        box-shadow: 0px 30px 26px 3px rgba(0,0,0,.2);
+        display: none;
+        transition: .5s; 
+    }
+
+    .pop-up-menu a {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+
+    .pop-up-menu ul {
+        list-style-type: none;
+        line-height: 2;
+        text-align: end;
+    }
+
+    .pop-up-menu li:hover {
+        color: white;
+        text-decoration-line: underline;
     }
 
     
     .nav-menu {
-        width: 60%;
         display: flex;
         justify-content: end;
     }
@@ -221,13 +265,13 @@ MAIN COLORS */
     }
 
     .menu-list {
-        width: 73%;
+        width: 78%;
     }
 
     .button-cont {
         display: flex;
         justify-content: end;
-        width: 25%;
+        width: 22%;
     }
 
     .menu ul {
@@ -251,6 +295,10 @@ MAIN COLORS */
 
     .menu {
         display: none;
+    }
+
+    .menu .button a {
+        color: black;
     }
 /* Navbar */
 
