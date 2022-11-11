@@ -1,8 +1,4 @@
 /* Tablet */
-/* 
-    TO DO
-    1.Change ".row { width: 80% } to { width: 90%}" 
-*/
 @media screen and (min-width: 768px) {
 
     .row, .row-card {
